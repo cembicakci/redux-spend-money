@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/redux-spend-money/static/css/main.34bdec76.css",
+    "main.js": "/redux-spend-money/static/js/main.a3196eae.js",
+    "index.html": "/redux-spend-money/index.html",
+    "main.34bdec76.css.map": "/redux-spend-money/static/css/main.34bdec76.css.map",
+    "main.a3196eae.js.map": "/redux-spend-money/static/js/main.a3196eae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34bdec76.css",
+    "static/js/main.a3196eae.js"
+  ]
+}
