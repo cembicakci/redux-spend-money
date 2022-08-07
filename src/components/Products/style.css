@@ -80,7 +80,7 @@
     background: #b2bec3;
 }
 
-@media only screen and (max-width: 800px) {
+@media(max-width: 800px) {
     .card-container {
         grid-template-columns: repeat(1,1fr);
 
