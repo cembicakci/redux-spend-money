@@ -1,0 +1,82 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card img{
+    height: 125px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.card-body{
+    margin: 20px 0;
+}
+
+.card-title{
+    font-size: 26px;
+}
+
+.card-price{
+    margin: 10px 0;
+    color: #24c486;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.card-btn-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-btn-group input {
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #b2bec3;
+    border-radius: 3px;
+    text-align: center;
+    width: 100%;
+    margin: 0 8px 0 8px;
+    font-size: 16px;
+}
+
+.card-btn-group button {
+    padding: 10px 30px;
+    border-radius: 3px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn-sell{
+    background: linear-gradient(180deg,#f53b82,#f53b57);
+    color: #fff;
+}
+
+.btn-sell:disabled{
+    background: #b2bec3;
+    
+}
+
+
+.btn-buy{
+    background: linear-gradient(180deg,#2ecc71,#1abc9c);
+    color: #fff;
+}
+
+.btn-buy:disabled{
+    background: #b2bec3;
+}
+
